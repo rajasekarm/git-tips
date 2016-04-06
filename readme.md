@@ -17,3 +17,8 @@ Git change remote URL
 git remote set-url origin git@github.com:username/repo.git
 ```
 
+Reset git add. before commit
+```javascript
+git reset
+```
+
