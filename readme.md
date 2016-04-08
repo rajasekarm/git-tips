@@ -22,3 +22,11 @@ Reset git add. before commit
 git reset
 ```
 
+Sync a fork
+Add Upstream
+```javascript
+git remote add upstream git@github.com:username/repo.git // main form url
+git fetch upstream  // fetch upstream to local
+git merge upstream/master  //merge to master
+git push origin master
+```
