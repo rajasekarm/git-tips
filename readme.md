@@ -1,5 +1,11 @@
 Collection of most frequently used git commands
 ======
+Git basics - Pushing files to Remote
+```javascript
+git add .
+git  commit -m 'Message'
+git push origin master
+```
 
 Check existing remote URL
 ```javascript
