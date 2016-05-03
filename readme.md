@@ -6,7 +6,11 @@ git add .
 git  commit -m 'Message'
 git push origin master
 ```
-
+Git reset local changes
+```javascript
+git reset --hard HEAD
+git clean -f -x -d -n
+```
 Check existing remote URL
 ```javascript
 git remote -v
