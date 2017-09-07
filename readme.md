@@ -51,4 +51,10 @@ See changes in file
 ```javascript
 git diff filename
 ```
+Get latest commit hash
+```javascript
+git rev-parse HEAD -- full hash
+git rev-parse --short HEAD --> short hash
+```
+
 
