@@ -47,3 +47,8 @@ git fetch upstream  // fetch upstream to local
 git merge upstream/master  //merge to master
 git push origin master
 ```
+See changes in file
+```javascript
+git diff filename
+```
+
