@@ -56,7 +56,7 @@ Get latest commit hash
 git rev-parse HEAD -- full hash
 git rev-parse --short HEAD --> short hash
 ```
-Back to previous branch
+Back to previous branch 
 ```javascript
 git checkout -
 ```
