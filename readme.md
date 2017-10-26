@@ -60,5 +60,9 @@ Back to previous branch
 ```javascript
 git checkout -
 ```
-
+Create new branch in Local and push to origin
+```javascript
+git checkout -b branch-name
+git push origin branch-name
+```
 
