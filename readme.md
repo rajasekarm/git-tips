@@ -65,4 +65,7 @@ Create new branch in Local and push to origin
 git checkout -b branch-name
 git push origin branch-name
 ```
-
+Revert Merge
+```javascript
+git merge --abort
+```
