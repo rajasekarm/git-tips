@@ -69,3 +69,10 @@ Revert Merge
 ```javascript
 git merge --abort
 ```
+Revert pushed rebase
+```javascript
+ git reflog
+ git reset --hard HEAD@{10}
+ git push -f origin branch-name
+ ```
+
