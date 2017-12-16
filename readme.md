@@ -47,28 +47,40 @@ git fetch upstream  // fetch upstream to local
 git merge upstream/master  //merge to master
 git push origin master
 ```
+
 See changes in file
 ```javascript
 git diff filename
 ```
+
 Get latest commit hash
 ```javascript
 git rev-parse HEAD -- full hash
 git rev-parse --short HEAD --> short hash
 ```
+
 Back to previous branch 
 ```javascript
 git checkout -
 ```
+
 Create new branch in Local and push to origin
 ```javascript
 git checkout -b branch-name
 git push origin branch-name
 ```
+
 Revert Merge
 ```javascript
 git merge --abort
 ```
+
+Rebasing
+```javascript
+git rebase master
+git push -f origin branch-name // -f is important here
+```
+
 Revert pushed rebase
 ```javascript
  git reflog
