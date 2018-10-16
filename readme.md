@@ -88,3 +88,9 @@ Revert pushed rebase
  git push -f origin branch-name
  ```
 
+Delete local branch
+```javascript
+git branch -d branch_name
+git branch -D branch_name // force delete
+```
+
